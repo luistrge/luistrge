@@ -1,6 +1,6 @@
-# 👨‍💻 Hola, soy estudiante de Ciencia de Datos  
+# 👨‍💻 Hola, soy estudiante de Data Science  
 
-📍 Actualmente curso el **Grado en Ciencia de Datos** en la *Universitat Politècnica de València*.  
+📍 Actualmente curso el **Grado en Ciencia de Dato** en la *Universitat Politècnica de València*.  
 🚀 Me interesa todo lo relacionado con **Machine Learning, MLOps y Visualización de Datos**.  
 📚 Siempre estoy aprendiendo algo nuevo, ya sea con proyectos propios o colaborando en equipo.  
 
