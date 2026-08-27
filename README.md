@@ -128,6 +128,8 @@ I'm currently especially interested in applications of data across **operations,
   <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white" />
 </p>
 
+---
+
 ## Current Interests
 
 At the moment, I'm especially interested in working on problems related to:
