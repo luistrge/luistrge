@@ -196,4 +196,4 @@ I'm also building new projects around **financial analytics, fintech and decisio
     <img src="https://img.shields.io/badge/Email-luistriguerosespada%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" />
   </a>
 </p>
-```
+
