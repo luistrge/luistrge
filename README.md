@@ -93,13 +93,12 @@ I'm currently especially interested in applications of data across **operations,
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white" />
   <img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/MATLAB-0076A8?style=flat-square" />
 </p>
 
-### Data Analysis & Machine Learning
+### Machine Learning & Data
 
 <p>
   <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
@@ -108,43 +107,10 @@ I'm currently especially interested in applications of data across **operations,
   <img src="https://img.shields.io/badge/CatBoost-FFCC00?style=flat-square" />
   <img src="https://img.shields.io/badge/XGBoost-EC6B23?style=flat-square" />
   <img src="https://img.shields.io/badge/LightGBM-2D6A4F?style=flat-square" />
-  <img src="https://img.shields.io/badge/Machine%20Learning-4051B5?style=flat-square" />
-  <img src="https://img.shields.io/badge/Statistical%20Modelling-455A64?style=flat-square" />
-</p>
-
-### AI & Unstructured Data
-
-<p>
-  <img src="https://img.shields.io/badge/NLP-5C6BC0?style=flat-square" />
-  <img src="https://img.shields.io/badge/Computer%20Vision-3949AB?style=flat-square" />
   <img src="https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/LLMs-111827?style=flat-square" />
-  <img src="https://img.shields.io/badge/Multimodal%20ML-6A1B9A?style=flat-square" />
 </p>
 
-### Optimization & Analytics
-
-<p>
-  <img src="https://img.shields.io/badge/Forecasting-1565C0?style=flat-square" />
-  <img src="https://img.shields.io/badge/Linear%20Programming-37474F?style=flat-square" />
-  <img src="https://img.shields.io/badge/Integer%20Programming-455A64?style=flat-square" />
-  <img src="https://img.shields.io/badge/Scenario%20Analysis-0277BD?style=flat-square" />
-  <img src="https://img.shields.io/badge/Root--Cause%20Analysis-546E7A?style=flat-square" />
-  <img src="https://img.shields.io/badge/KPI%20Analysis-00838F?style=flat-square" />
-  <img src="https://img.shields.io/badge/Process%20Improvement-00695C?style=flat-square" />
-</p>
-
-### Data Engineering
-
-<p>
-  <img src="https://img.shields.io/badge/ETL-455A64?style=flat-square" />
-  <img src="https://img.shields.io/badge/Data%20Wrangling-546E7A?style=flat-square" />
-  <img src="https://img.shields.io/badge/Big%20Data-263238?style=flat-square" />
-  <img src="https://img.shields.io/badge/Data%20Pipelines-37474F?style=flat-square" />
-  <img src="https://img.shields.io/badge/Data%20Warehousing-455A64?style=flat-square" />
-</p>
-
-### Backend, MLOps & Deployment
+### Engineering
 
 <p>
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
@@ -152,23 +118,17 @@ I'm currently especially interested in applications of data across **operations,
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
   <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
-  <img src="https://img.shields.io/badge/REST%20APIs-005571?style=flat-square" />
-  <img src="https://img.shields.io/badge/Model%20Monitoring-455A64?style=flat-square" />
 </p>
 
-### Visualization & Business Tools
+### Analytics & Visualization
 
 <p>
-  <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white" />
+  <img src="https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white" />
   <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
+  <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white" />
   <img src="https://img.shields.io/badge/R%20Shiny-276DC3?style=flat-square&logo=rstudio&logoColor=white" />
   <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white" />
-  <img src="https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white" />
-  <img src="https://img.shields.io/badge/PowerPoint-B7472A?style=flat-square&logo=microsoftpowerpoint&logoColor=white" />
-  <img src="https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white" />
 </p>
-
----
 
 ## Current Interests
 
