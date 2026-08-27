@@ -1,170 +1,199 @@
-<h1 align="center">Luis Trigueros Espada</h1>
-
 <p align="center">
-  <strong>Data Science · Applied Machine Learning · Optimization · Decision Systems</strong>
-</p>
-
-<p align="center">
-  B.Sc. Data Science @ Universitat Politècnica de València · Valencia, Spain<br>
-  Academic Exchange @ Universidad Diego Portales, Santiago de Chile · 2026
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,50:152A46,100:1F6FEB&height=210&section=header&text=Luis%20Trigueros%20Espada&fontSize=40&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=Data%20Science%20%7C%20Machine%20Learning%20%7C%20Optimization%20%7C%20Analytics&descAlignY=56&descSize=17"
+    width="100%"
+  />
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/luis-trigueros-espada">
-    <img src="https://img.shields.io/badge/LinkedIn-Luis%20Trigueros-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-Luis%20Trigueros%20Espada-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
   </a>
   <a href="mailto:luistriguerosespada@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail&logoColor=white" />
   </a>
+  <a href="https://github.com/luistrge">
+    <img src="https://img.shields.io/badge/GitHub-luistrge-181717?style=flat-square&logo=github&logoColor=white" />
+  </a>
 </p>
 
 ---
 
-## About me
+## About
 
-I am a **Data Science student at Universitat Politècnica de València**, graduating in **June 2027**, with a current GPA of **8.0/10**.
+I'm a Data Science student based in **Valencia, Spain**, interested in using data to solve problems that have a clear practical outcome.
 
-I am most interested in the point where technical analysis becomes a real decision: forecasting demand, allocating limited resources, evaluating competing models, understanding trade-offs, and turning data into systems that people can actually use.
+Most of my work sits somewhere between **machine learning, analytics, optimization and software**, often involving large datasets, forecasting, model evaluation or decision-support systems.
 
-My projects span **machine learning, operations research, NLP, data visualization and MLOps**, but I try to approach them with the same principle:
+I particularly enjoy projects where the technical side is only part of the challenge — understanding the problem, working with constraints and turning the result into something useful matters just as much.
 
-> **The model is only useful if it helps make a better decision.**
+My recent work has included urban mobility forecasting, resource allocation, multimodal classification, NLP over scientific publications and interactive analytical applications.
 
-I particularly enjoy working on problems that combine **data, technology and business or operational constraints**, and I am currently exploring applications across analytics, operations, fintech and quantitative decision-making.
+I'm currently especially interested in applications of data across **operations, technology, fintech, business analytics and quantitative decision-making**.
 
 ---
 
-## Selected work
+## Selected Projects
 
-| Project                                                                                  | Problem & approach                                                                                                                                                                                                         | Highlights                                                           |
-| ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| **[UrbanFlow Valencia](https://github.com/luistrge/urbanflow-valencia-mlops)**           | End-to-end decision-support platform for forecasting urban traffic and optimizing infrastructure allocation under real budget constraints. Team project covering modelling, optimization, APIs, deployment and monitoring. | **850K+ observations · 1,158 zones · 24 models · R² 0.92 · 10/10**   |
-| **[UPV-EARTH](https://github.com/luistrge/upv-earth-planetary-boundaries)**              | Maps UPV scientific research to the nine Planetary Boundaries using lexical baselines, scientific embeddings, locally hosted LLMs and an auditable agent pipeline.                                                         | **31,634 abstracts · NLP + LLM pipeline · review platform · 9.9/10** |
-| **[EXIST 2026](https://github.com/luistrge/exist-2026-multimodal-sexism)**               | Hierarchical multimodal system for identifying and characterizing sexism in memes using OCR, images, multilingual language models and physiological signals.                                                               | **0.709 macro-F1 development · Top-5 LNR project · multimodal ML**   |
-| **[COVID-19, Wealth & Mortality](https://github.com/luistrge/covid19-wealth-mortality)** | Interactive analytical application exploring pandemic outcomes alongside GDP per capita, population and health-expenditure indicators across countries.                                                                    | **69K+ records · 189 countries · 9 analytical views · R Shiny**      |
-
-### UrbanFlow Valencia — from model to operational decision
+### [UrbanFlow Valencia](https://github.com/luistrge/urbanflow-valencia-mlops)
+**Forecasting, optimization and decision support for urban mobility**
 
 `Python` · `CatBoost` · `FastAPI` · `PuLP` · `Docker` · `GitHub Actions` · `TypeScript`
 
-UrbanFlow is the project that best represents the kind of work I enjoy.
-
-The system combines **forecasting and optimization** rather than stopping at prediction: 24 CatBoost models estimate hourly traffic across Valencia, while an Integer Linear Programming model allocates infrastructure under budget constraints.
-
-Beyond modelling, the project includes a REST API, automated deployment, real-time data integrations and model-drift monitoring.
-
-**Why it matters:** predictions become inputs to an actual resource-allocation decision.
+- Built as an end-to-end platform combining traffic forecasting with infrastructure allocation.
+- Analysed more than **850,000 observations** across **1,158 geographic zones**.
+- Developed **24 predictive models**, reaching **R² = 0.92** on unseen temporal data.
+- Added an Integer Linear Programming model to allocate resources under budget constraints.
+- Extended beyond modelling with APIs, deployment, monitoring and scenario analysis.
+- Academic project awarded **10/10**.
 
 ---
 
-### UPV-EARTH — evidence-driven NLP at scale
+### [UPV-EARTH](https://github.com/luistrge/upv-earth-planetary-boundaries)
+**Large-scale NLP analysis of scientific research**
 
 `Python` · `NLP` · `Transformers` · `LLMs` · `Docker`
 
-UPV-EARTH analyses more than **31,000 scientific abstracts** to understand how university research contributes to the Planetary Boundaries framework.
-
-The project compares simple lexical methods with scientific transformer representations and local LLM-based classification, with an emphasis on **auditability, uncertainty and false-positive control**.
-
-One of the most interesting results was also a useful modelling lesson: a carefully designed **TF-IDF baseline outperformed several substantially more complex transformer representations** for the task.
-
----
-
-### EXIST 2026 — multimodal modelling under uncertainty
-
-`Python` · `NLP` · `Computer Vision` · `Ensembles` · `Multimodal ML`
-
-As part of **Serrano Team**, I worked on a hierarchical system combining textual, visual and physiological information for the EXIST 2026 multimodal tasks.
-
-The project involved model comparison, calibration, ablation studies, ensemble design and error analysis across multiple dependent classification stages.
-
-Rather than simply adding every available modality, the final approach focused on identifying **which sources of information contributed complementary predictive value**.
+- Analysed more than **31,000 scientific abstracts**.
+- Compared lexical baselines, scientific embeddings and locally hosted LLM approaches.
+- Designed an auditable classification pipeline around the **Planetary Boundaries** framework.
+- Focused on model comparison, false-positive control and uncertainty.
+- Academic project awarded **9.9/10**.
 
 ---
 
-## How I approach projects
+### [EXIST 2026](https://github.com/luistrge/exist-2026-multimodal-sexism)
+**Hierarchical multimodal classification**
 
-**Start with the decision.**
-Before choosing a model, I try to understand what the output will actually be used for, what constraints exist and which errors matter most.
+`Python` · `NLP` · `Computer Vision` · `Transformers` · `Ensembles`
 
-**Establish a strong baseline.**
-I prefer measuring whether additional complexity creates real incremental value instead of assuming that a more sophisticated model must perform better.
-
-**Go beyond the notebook.**
-Where the project allows it, I try to think about APIs, deployment, monitoring, reproducibility and how someone else would interact with the system.
-
-**Make results auditable.**
-Metrics, assumptions, limitations and failure cases should be visible enough for another person to understand why a conclusion was reached.
-
-**Communicate the result, not only the technique.**
-A technically strong model is much more useful when its implications can be explained clearly to both technical and non-technical users.
+- Co-developed a multimodal system combining textual, visual and physiological information.
+- Worked with multilingual embeddings, computer-vision representations and supervised ensembles.
+- Performed model comparison, calibration, ablation experiments and error analysis.
+- Reached up to **0.709 macro-F1** in internal validation.
+- Ranked **Top-5 in the LNR academic challenge** based on EXIST 2026.
 
 ---
 
-## Technical toolkit
+### [COVID-19, Wealth & Mortality](https://github.com/luistrge/covid19-wealth-mortality)
+**Global socioeconomic and health-data exploration**
 
-### Core languages
+`R` · `Shiny` · `Plotly` · `APIs`
+
+- Integrated economic and health indicators covering around **190 countries**.
+- Worked with GDP per capita, healthcare expenditure, population and mortality data.
+- Developed an interactive analytical application for international comparison and visualization.
+- Combined statistical analysis with dashboards, rankings and geographic exploration.
+
+---
+
+## Technical Stack
+
+### Programming
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/MATLAB-0076A8?style=flat-square" />
 </p>
 
-### Machine learning & analytics
+### Data Analysis & Machine Learning
 
-`Pandas` · `NumPy` · `Scikit-learn` · `CatBoost` · `XGBoost` · `LightGBM` · `NLP` · `Computer Vision` · `Statistical Modelling` · `Operations Research`
+<p>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
+  <img src="https://img.shields.io/badge/CatBoost-FFCC00?style=flat-square" />
+  <img src="https://img.shields.io/badge/XGBoost-EC6B23?style=flat-square" />
+  <img src="https://img.shields.io/badge/LightGBM-2D6A4F?style=flat-square" />
+  <img src="https://img.shields.io/badge/Machine%20Learning-4051B5?style=flat-square" />
+  <img src="https://img.shields.io/badge/Statistical%20Modelling-455A64?style=flat-square" />
+</p>
 
-### Engineering & deployment
+### AI & Unstructured Data
+
+<p>
+  <img src="https://img.shields.io/badge/NLP-5C6BC0?style=flat-square" />
+  <img src="https://img.shields.io/badge/Computer%20Vision-3949AB?style=flat-square" />
+  <img src="https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
+  <img src="https://img.shields.io/badge/LLMs-111827?style=flat-square" />
+  <img src="https://img.shields.io/badge/Multimodal%20ML-6A1B9A?style=flat-square" />
+</p>
+
+### Optimization & Analytics
+
+<p>
+  <img src="https://img.shields.io/badge/Forecasting-1565C0?style=flat-square" />
+  <img src="https://img.shields.io/badge/Linear%20Programming-37474F?style=flat-square" />
+  <img src="https://img.shields.io/badge/Integer%20Programming-455A64?style=flat-square" />
+  <img src="https://img.shields.io/badge/Scenario%20Analysis-0277BD?style=flat-square" />
+  <img src="https://img.shields.io/badge/Root--Cause%20Analysis-546E7A?style=flat-square" />
+  <img src="https://img.shields.io/badge/KPI%20Analysis-00838F?style=flat-square" />
+  <img src="https://img.shields.io/badge/Process%20Improvement-00695C?style=flat-square" />
+</p>
+
+### Data Engineering
+
+<p>
+  <img src="https://img.shields.io/badge/ETL-455A64?style=flat-square" />
+  <img src="https://img.shields.io/badge/Data%20Wrangling-546E7A?style=flat-square" />
+  <img src="https://img.shields.io/badge/Big%20Data-263238?style=flat-square" />
+  <img src="https://img.shields.io/badge/Data%20Pipelines-37474F?style=flat-square" />
+  <img src="https://img.shields.io/badge/Data%20Warehousing-455A64?style=flat-square" />
+</p>
+
+### Backend, MLOps & Deployment
 
 <p>
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/REST%20APIs-005571?style=flat-square" />
+  <img src="https://img.shields.io/badge/Model%20Monitoring-455A64?style=flat-square" />
 </p>
 
-### Visualization & decision support
+### Visualization & Business Tools
 
-`R Shiny` · `Plotly` · `Tableau` · `Power BI` · `Excel`
-
----
-
-## Education
-
-**Universitat Politècnica de València (UPV)**
-B.Sc. in Data Science · Expected June 2027 · **GPA: 8.0/10**
-
-Selected coursework and results:
-
-* Digital Economics — **10.0/10**
-* Data Analysis Project — **9.9/10**
-* Data Integration & Preparation — **9.4/10**
-* Statistical Models for Decision Making — **8.8/10**
-
-**Universidad Diego Portales — Santiago de Chile**
-International Academic Exchange · 2026
-
-**Languages:** Spanish · English **C1** · French (basic)
+<p>
+  <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white" />
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
+  <img src="https://img.shields.io/badge/R%20Shiny-276DC3?style=flat-square&logo=rstudio&logoColor=white" />
+  <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white" />
+  <img src="https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white" />
+  <img src="https://img.shields.io/badge/PowerPoint-B7472A?style=flat-square&logo=microsoftpowerpoint&logoColor=white" />
+  <img src="https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white" />
+</p>
 
 ---
 
-## Current focus
+## Current Interests
 
-I am currently interested in opportunities and projects involving:
+At the moment, I'm especially interested in working on problems related to:
 
-* **Data & Business Analytics**
-* **Operations Research and Optimization**
-* **Machine Learning and applied AI**
-* **Data-driven product and operational decision-making**
-* **Fintech and quantitative finance applications**
+- Applied Machine Learning
+- Business & Data Analytics
+- Operations Research
+- Forecasting and optimization
+- Fintech and quantitative finance
+- Data-driven product and operational decisions
+- AI applied to real business problems
 
-I am open to **internship opportunities starting in 2027**, particularly where quantitative analysis and technology are used to solve real operational or business problems.
+I'm also building new projects around **financial analytics, fintech and decision-support tools** to complement my current technical portfolio.
 
 ---
 
 ## Contact
 
-The best way to reach me is through **[LinkedIn](https://www.linkedin.com/in/luis-trigueros-espada)** or at **[luistriguerosespada@gmail.com](mailto:luistriguerosespada@gmail.com)**.
-
-If you are working on an interesting data, analytics or decision-support problem, I am always happy to connect.
+<p>
+  <a href="https://www.linkedin.com/in/luis-trigueros-espada">
+    <img src="https://img.shields.io/badge/LinkedIn-Luis%20Trigueros%20Espada-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:luistriguerosespada@gmail.com">
+    <img src="https://img.shields.io/badge/Email-luistriguerosespada%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" />
+  </a>
+</p>
+```
