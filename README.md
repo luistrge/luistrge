@@ -27,8 +27,6 @@ Most of my work sits somewhere between **machine learning, analytics, optimizati
 
 I particularly enjoy projects where the technical side is only part of the challenge — understanding the problem, working with constraints and turning the result into something useful matters just as much.
 
-My recent work has included urban mobility forecasting, resource allocation, multimodal classification, NLP over scientific publications and interactive analytical applications.
-
 I'm currently especially interested in applications of data across **operations, technology, fintech, business analytics and quantitative decision-making**.
 
 ---
